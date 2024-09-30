@@ -2,7 +2,7 @@ Here’s an extended version of your `README.md` file with the installation, set
 
 ---
 
-# Place Monitor Django
+# Django Place Monitor
 
 This Django app is designed to monitor the available disk space on the server hosting your web application. When free space reaches a specified threshold, the app sends notifications to the administrator, alerting them of potential issues due to low disk space.
 
