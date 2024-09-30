@@ -28,7 +28,7 @@ To install the Place Monitor Django app, follow these steps:
     ```python
     INSTALLED_APPS = [
         ...
-        'monitor',  # Add this line
+        'place_monitor_django',  # Add this line
     ]
     ```
 
@@ -47,7 +47,7 @@ To activate the Place Monitor middleware that checks the server disk space and s
 ```python
 MIDDLEWARE = [
     ...
-    'monitor.middleware.AdminMessageMiddleware',
+    'place_monitor_django.middleware.AdminMessageMiddleware',
 ]
 ```
 
